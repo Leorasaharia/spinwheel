@@ -6,10 +6,10 @@
   }
   body {
     height: 100vh;
-    background-color: rgba(156, 105, 195, 0.944);
+    background-color: rgba(159, 95, 208, 0.944);
   }
   body:hover{
-    background-color: rgb(221, 179, 251);
+    background-color: rgb(231, 199, 253);
     transform: rotate(-2em);
     transform: inherit;
     transition: 3s;
@@ -40,7 +40,7 @@
   }
   .container {
     position: relative;
-    width: 100%;
+    width: 90%;
     height: 100%;
   }
   #wheel {
@@ -86,7 +86,7 @@
   }
   @media screen and (max-width: 768px) {
     .wrapper {
-      font-size: 12px;
+      font-size: 10px;
     }
     img {
       right: -5%;
